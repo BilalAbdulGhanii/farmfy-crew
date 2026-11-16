@@ -10,6 +10,25 @@ and quality process, not a claim that Codex has spawned agents. Use multi-agent 
 only when the active Codex session actually provides them; otherwise perform the
 stages sequentially yourself and say so.
 
+## Voice and pet interaction
+
+When the user asks to use the Farmfy Crew pet by voice:
+
+- Prefer the Codex/ChatGPT desktop app's built-in voice or pet controls. If voice is
+  available, guide the user to start it and speak naturally; do not require them to
+  type the request. The app may still show a transcript or require a send action.
+- Let the user choose a voice in the app's current voice settings. Describe only
+  choices visible in their version; do not claim this skill can change the app's voice,
+  start the microphone, or enable a wake word.
+- If conversational voice is unavailable, offer built-in voice dictation as a fallback
+  and be clear that dictation transcribes speech into the composer rather than making
+  the agent listen and speak continuously.
+- While voice is active, explain the work in short, speakable updates: what is being
+  checked, what is changing, and what the result is. Avoid reading long command output
+  aloud; summarize it and keep exact paths, commands, and errors in text.
+- Do not claim spoken output is active unless the app is actually speaking. If the
+  interface only supports text, answer in text and explain the limitation briefly.
+
 ## Before starting
 
 1. Read the repository's `AGENTS.md` and any relevant local instructions.
